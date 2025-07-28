@@ -3084,25 +3084,23 @@ input[type="color"] {
   padding-bottom: 25px;
   display: block;
 }
-.design-service-accordion .accordion-buttons i {
+.design-service-accordion .accordion-buttons p {
   font-weight: 400;
-  font-size: 80px;
-  line-height: 0.87;
-  color: #e0eeee;
+  font-size: 70px;
+  line-height: 1;
   margin-bottom: 0;
-  transition: 0.3s;
-  font-style: normal;
-  padding-bottom: 5px;
-  letter-spacing: -0.02em;
-  font-family: var(--tp-ff-dirtyline);
+  display: inline-block;
+  font-family: var(--tp-ff-mango);
+  color: #ff4851 !important;
 }
+
 @media (max-width: 767px) {
   .design-service-accordion .accordion-buttons i {
     font-size: 50px;
   }
 }
 .design-service-accordion .accordion-buttons:not(.collapsed) img {
-  transform: scale(1.4) rotate(-20deg) translate(-45px, 25px);
+  transform: scale(1.2) rotate(-10deg) translate(-45px, 25px);
 }
 .design-service-accordion .accordion-buttons:not(.collapsed) i {
   color: #c5fcfc;
@@ -3172,7 +3170,7 @@ input[type="color"] {
   position: absolute;
   top: 0;
   right: 0;
-  border-radius: 10px;
+  border-radius: 4px;
   height: 110px;
   width: 160px;
 }
@@ -19135,15 +19133,14 @@ body.tp-magic-cursor #magic-cursor {
   }
 }
 .design-service-big-text h4 {
-  font-weight: 400;
-  font-size: 410px;
-  line-height: 0.9;
-  color: #e0eeee;
-  margin-bottom: 0;
-  display: inline-block;
-  letter-spacing: -0.02em;
-  font-family: var(--tp-ff-dirtyline);
+    font-size: 130px !important;
+    font-family: var(--tp-ff-mango);
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #ff4851;
 }
+
 @media only screen and (min-width: 1701px) and (max-width: 1800px) {
   .design-service-big-text h4 {
     font-size: 380px;
@@ -22458,13 +22455,12 @@ body.tp-magic-cursor #magic-cursor {
 }
 
 .tp_text_invert_2 > div {
-  background-image: linear-gradient(to right, #e0eeee 50%, #383c3e 50%);
+  /* background-image: linear-gradient(to right, #e0eeee 50%, #383c3e 50%); */
   padding: 10px 0;
   background-size: 200% 100%;
   background-position: 100%;
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
 }
 
 .tp_text_invert_3 > div {
