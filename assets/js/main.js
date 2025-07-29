@@ -1365,7 +1365,7 @@
       scrollTrigger: {
         trigger: ".tp-project-5-2-area",
         start: "top center-=350",
-        end: "bottom 150%",
+        end: "center 50%",
         pin: ".tp-project-5-2-title",
         markers: false,
         pinSpacing: false,

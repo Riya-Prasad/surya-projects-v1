@@ -3378,9 +3378,8 @@ input[type="color"] {
   font-size: 90px;
   line-height: 0.9;
   margin-bottom: 0;
-  letter-spacing: -0.08em;
   text-transform: uppercase;
-  color: #ff4851;
+  color: #fcce03;
 }
 
 .tp-hero-area {
@@ -21827,7 +21826,7 @@ body.tp-magic-cursor #magic-cursor {
   font-weight: 600;
   font-size: 180px;
   line-height: 1;
-  margin-bottom: 0;
+  margin-bottom: 140px;
   display: inline-block;
   font-family: var(--tp-ff-mango);
   color: #fbf5de;
@@ -23681,7 +23680,7 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 50px;
 }
 .tp-project-5-2-thumb img {
-  max-width: inherit;
+  max-width: 100%;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px),
